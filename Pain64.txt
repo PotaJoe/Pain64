@@ -1,0 +1,40 @@
+10 poke 53280,0
+20 poke 53281,0
+30 poke 646,2
+40 print "ppp aaa iii n  n"
+50 print "p p a a  i  nn n"
+60 print "ppp a a  i  nnnn"
+70 print "p   aaa  i  n nn"
+80 print "p   a a iii n  n"
+90 print " "
+100 print "666 4 4"
+110 poke 646,8
+120 print "6   4 4"
+130 poke 646,7
+140 print "666 444"
+150 poke 646,5
+160 print "6 6   4"
+170 poke 646,14
+180 print "666   4"
+190 poke 646,1
+200 print " "
+210 print "2019 potajoe"
+220 print " "
+230 print " "
+240 print " "
+250 print " "
+260 print " "
+270 print " "
+280 print " "
+290 print " "
+300 print " "
+310 print " "
+320 print "press any key to start!"
+330 poke 198,0: wait 198,1 
+340 poke 646,(rnd(1)*17)
+350 poke 53280,(rnd(1)*17)
+360 poke 53281,(rnd(1)*17)
+370 print tab((rnd(1)*30)) chr$((rnd(1)*146))
+380 poke 54272+rnd(1) *25,rnd(1) *256
+390 goto 340
+run
